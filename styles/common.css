@@ -1,0 +1,160 @@
+
+.logo {
+    font-family: 'Montez', cursive;
+    font-size: 35px;
+    color: blue;   
+    margin-left: 5px;
+}
+.subheading {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.header-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btns {
+    margin: 5px;
+}
+#signInBtn, #signUpBtn {
+    background-color: blue;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    text-align: center;
+    border: 1px solid rgb(7, 7, 92);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#signInBtn:hover {    
+    background-color: rgb(14, 2, 57);
+    color: white;
+  }
+
+  #signUpBtn:hover {    
+    background-color: rgb(14, 2, 57);
+    color: white;
+  } 
+
+  /* login CSS */
+.mainSigninModal {
+    display: none;
+    justify-content: center;
+    margin-top: -20%;
+}
+
+.signinModal {
+    width: 25%;
+    background: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px 30px;
+    top: 0%;
+    left: 50%;
+}  
+
+
+.header-2 p{
+    font-weight: lighter;
+    font-size: larger;
+}
+
+#para {
+    text-align: center;
+    font-weight: bold;
+}
+
+.close {   
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    float: inline-end;
+}
+.signinModal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signinModal input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.signinModal hr {
+    width: 100%;
+    margin-top: -10px;
+}
+.label-text {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.signinModal a {
+    font-size: 14px;
+    color: #186CA3;
+    text-decoration: none;
+}
+
+.login-btn, .signup-btn {
+    background-color: green;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Sign Up */
+.mainSignupModal {
+    display: none;
+    justify-content: center;
+    margin-top: -20%;
+}
+.signupModal {
+    width: 25%;
+    background: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px 30px;
+    top: 0%;
+    left: 50%;         
+}
+
+.signupModal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupModal input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.signupModal hr {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.signinModal a {
+    font-size: 14px;
+    color: #186CA3;
+    text-decoration: none;
+}
+
+
+

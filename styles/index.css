@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.background-img {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;   
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;  
+    margin-top: 20%;
+}
+#allPostBtn, #createPostBtn {
+    background-color: yellow;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px 35px;
+    text-align: center;
+    border: 1px solid rgb(115, 115, 3);
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#allPostBtn:hover {    
+    background-color: green; 
+    color: white;
+  }
+
+  #createPostBtn:hover {    
+    background-color: green; 
+    color: white;
+  } 
+
+  /* New Post */
+.newPostModal {
+    display: none;
+    justify-content: center;
+    margin-top: -20%;
+    
+}
+.modal-content {
+    width: 80%;
+    background: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px 30px;
+    top: 0%;
+    left: 50%;
+}  
+
+
+.header-2 p{
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.close {   
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    float: inline-end;
+}
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-family: monospace;
+}
+
+.modal-content textarea {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    height: 200px;
+    resize: vertical;
+}
+
+.modal-content hr {
+    width: 100%;
+    margin-top: -10px;
+}
+.label-text {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.create-btn {
+    background-color: green;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 45%;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
